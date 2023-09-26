@@ -1,0 +1,63 @@
+.fontfamilycizen{
+    font-family:$font-family;
+    font-weight: 900;
+}
+.fontsize{
+    font-size: 20px;
+    @include media-min-md{ font-size: 34px;}
+    // @include media-min-lg{ font-size: 54px;}
+    @include media-min-lg-x{ font-size: 54px;}
+    @include media-min-xl{ font-size: 64px;}
+   
+}
+.Varela{
+    font-family:$font-family1 ;
+}
+.textjustify{
+    text-align: justify;
+}
+.clrblack{
+    color:$clr-black ;
+}
+.abuclr3{
+    background-color:$aboutclr3 ;
+}
+.fw4{
+    font-weight: 600;
+}
+.fs1{
+    font-size: 12px;
+    @include media-min-md{
+        font-size: 18px;
+    }
+}
+.fs24{
+    font-size: 20px;
+}
+.fs2{
+    font-size: 14px;
+    @include media-min-md{
+        font-size: 22px;
+    }
+}
+.fs3{
+    font-size: 8px;
+    @include media-min-md{
+        font-size: 12px;
+    }
+    @include media-min-xl{
+        font-size: 16px;
+    }
+}
+.fw5{
+    font-weight: 400;
+}
+.fs6{
+    font-size: 8px;
+    @include media-min-md{
+        font-size: 16px;
+    }
+    @include media-min-xl{
+        font-size: 18px;
+    }
+}

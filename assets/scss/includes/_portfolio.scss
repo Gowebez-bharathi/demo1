@@ -1,0 +1,17 @@
+.circleclr2{
+    color: white !important;     
+}
+.circleclr2:hover{
+    background-color:#fb004b !important;
+    color: white !important;   
+}
+.fsgal{
+    font-size: 10px;
+    @include media-min-md{font-size: 18px;}
+}
+.portbg1{
+    background-image: url(/public/images/portfolio/Portfolio.jpg);
+    font-family:$font-family1;
+    background-position:center;
+    background-size:100% 100%;
+}

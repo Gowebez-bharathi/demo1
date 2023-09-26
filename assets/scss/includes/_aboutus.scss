@@ -1,0 +1,69 @@
+.aboutus1bg{
+    background-image: url(/public/images/About/section\ 1.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+     @include media-min-lg{   
+      height: 100%;
+    }
+  }
+.welcome{
+    background-image: url(/public/images/About/MicrosoftTeams-image\ \(6\).png);
+    font-family:$font-family1;
+    background-position:center;
+    background-size:cover;  
+    background-repeat: no-repeat;
+}
+  .abtsec1{
+   background-color:$aboutsec1;
+  }
+  .abtsec2{
+    background-color:$aboutsec2 ;
+  }
+  .abtrelative{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .abt{
+    position: absolute;
+  top: 13%;
+  left: 45%;
+  width: 45%;
+  height: 50%;
+  }
+  .linehg{
+    line-height: normal;
+    @include media-min-lg{
+      line-height: 32px;
+    }
+  }
+  .ourstory{
+    background-image: url(/public/images/About/section\ 2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+     @include media-min-lg{     
+      height: 100%;
+    }
+  }
+  .ourteam{
+ background-color:$aboutsec1 ;
+  }
+  .arrowbg{
+    background-color:$aboutsec1 !important ;
+  }
+  .carousel-control-prev {
+    color: $aboutsec1 !important ;
+    opacity: 1 !important;
+}
+.prev:hover {
+    opacity: 1 !important;
+}
+.carousel-control-next {
+    color: $aboutsec1 !important ;
+    opacity: 1 !important;
+}
+.next:hover {
+    opacity: 1 !important;
+}

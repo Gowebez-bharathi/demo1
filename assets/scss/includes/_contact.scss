@@ -1,0 +1,21 @@
+.bookbg{
+    background-image: url(/public/images/contact/section2.jpg);
+    font-family:$font-family1;
+    background-position:center;
+    background-size:100% 100%;
+}
+.contactbg{
+    background-image: url(/public/images/contact/section\ 1.jpg);
+    font-family:$font-family1;
+    background-position: center;
+    background-size:100% 100%; 
+    background-repeat: no-repeat;
+}
+.iconcircle{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+.bordercont{
+    border-bottom: 1px dotted rgba(167, 151, 151, 0.747);
+}

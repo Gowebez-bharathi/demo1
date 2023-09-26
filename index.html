@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ========font link starts=============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville&family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Sulphur+Point:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville&family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Sulphur+Point:wght@300;400;700&family=Varela&display=swap"
+        rel="stylesheet">
+    <!--=============font link ends==============-->
+    <!--======= bootstrap link starts======= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script> -->
+    <!--=========bootstrap link ends==============-->
+    <!--================icon link starts=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--===== style sheet link============ -->
+    <link rel="stylesheet" href="/public/css/style.min.css">
+    <title>Bootstrap women salon task</title>
+</head>
+
+<body>
+    <!--==============header starts==================-->
+    <header>
+        <div class="headbg ">
+            <div class="container ">
+                <nav class="navbar navbar-dark border-0   d-flex    ">
+                    <div class="pt-md-3 pt-lg-4">
+                        <a class="navbar-brand  p-0" href="#"><img src="/public/images/Home-page_img/logo.png"
+                                alt="Logo" class=" logoimg  "></a>
+                    </div>
+                    <div class="pt-md-3 pt-lg-4">
+                        <button class="navbar-toggler  text-white border-0 " type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon  border-0"></span>
+                        </button>
+                    </div>
+                    <div class="offcanvas offcanvas-end  red " tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-body mt-lg-5 pt-5 nav-font fs-5 text-center navhover1  ">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-black  me-4 nav-font " aria-current="page"
+                                        href="/index.html">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navhover1 active  me-4 nav-font homeclr " aria-current="page"
+                                        href="/aboutus.html">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navhover1 active  me-4 nav-font homeclr" aria-current="page"
+                                        href="/service.html">SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navhover1 active  me-4 nav-font homeclr" aria-current="page"
+                                        href="/pricing.html">PRICING</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navhover1 active  me-4 nav-font " aria-current="page"
+                                        href="/portfolio.html">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active   me-3 nav-font " aria-current="page"
+                                        href="/contact.html">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div
+                    class="  text-white d-flex flex-column justify-content-center aline-items-center mt-xl-3 mt-lg-5 pt-lg-4 pt-xl-5 mt-xl-5 ">
+                    <h1 class="fontfamilycizen fontsize pt-xl-3 mt-xl-3 pt-md-1 pt-lg-3 text-center mb-0 pb-0">THE ART
+                        OF NATURAL</h1>
+                    <div>
+                        <h1 class="fontfamilycizen fontsize text-center  "><span
+                                class="  border border-top-0 border-end-0 ps-4 fontsize  pt-0 mt-0 pt-2 pt-xl-0 pt-md-0 pb-0 mb-0">BEAUTY</span>
+                        </h1>
+                    </div>
+                    <div>
+                        <h1 class="perfect   fontfamilycizen  text-center text-white mt-2 mt-lg-3 mt-xl-3 ">PERFECT
+                            STYLE
+                        </h1>
+                    </div>
+                </div>
+                <div class="text-center mt-xl-4 mt-lg-4 ">
+                    <button
+                        class="btn btnfontfront mt-md-0  border-0 book  text-black bg-white px-lg-4 mb-4 mb-lg-0 ">BOOK
+                        APPOINTMENT</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--================header ends===============-->
+    <!--=============aboutus starts=============-->
+    <div class=" text-4 d-none d-md-block ">
+        <div class="row m-0">
+            <div class=" col-md-6  col-lg-5 p-0 m-0 p-0 m-0 "><img src="/public/images/Home-page_img/img 1.jpg" alt=""
+                    class="img-fluid"></div>
+            <div class=" col-md-6 col-lg-7 p-0 m-0 aboutusbg">
+                <h1 class="text-white-50  text1  pt-5 ">ABOUT US</h1>
+                <div class="position-absolute ms-5  ps-2 ps-md-3 ms-md-3">
+                    <p class="mt-0  text3 pt-0 mt-5 mt-md-4 mb-0 lh-lg ps-3">Since 2010</p>
+                    <p class="mt-0 text2 pt-0 lh-1 mt-lg-2 ps-2 ps-xl-4 pt-xl-3">ABOUT US</p>
+                </div>
+            </div>
+        </div>
+        <div class="row  m-0 justify-content-center ">
+            <div class="text-5  bg-white Varela p-2   p-xl-5 pb-0 fs3 clrblack lineheight  ">
+                <p class="textjustify ">
+                    Lorem ipsum, ad eaque ab at ipsam sapiente, fugiat, Lorem ipsum, ad eaque ab at ipsam sapiente,
+                    Lorem ipsum, ad eaque ab at ipsam sapiente, fugiat, labore nulla similique labore nulla similique
+                    maiores in
+                    quam voluptas aperiam fuga neque quasi! Beatae, in. Rem a facere laborum labore, asperiores aliquam
+                    consectetur autem laboriosam? Dignissimos hic dicta illum deleniti tempore eum officiis sequi quas
+                    in!
+                    Pariatur, impedit molestiae alias harum fugiat, aliquam, explicabo hic illum optio incidunt odit
+                    iste repellat
+                    rerum laboriosam in libero totam doloremque soluta eveniet quae.
+                </p>
+                <button class="btn Varela  fs-lg-5  border-0 book  bg-black text-white  ">More About<span><i
+                            class="fa-solid fa-angle-right ps-md-3" style="color: #ffffff;"></i></span></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="d-block d-md-none m-0 p-0">
+        <div class="aboutusbg">
+            <h1 class="text-white-50     ">ABOUT US</h1>
+            <div class=" ">
+                <p class="mt-0 mb-0 ">Since 2010</p>
+                <p class="mt-0 mb-0 ">ABOUT US</p>
+            </div>
+        </div>
+        <div class=" aboutus ">
+            <img src="/public/images/Home-page_img/img 1.jpg" alt="" class="w-100 img-fluid">
+        </div>
+        <div class="row p-0 m-0  text-center ">
+            <div class="  bg-white Varela   fs-6  ">
+                <p class="textjustify">
+                    Lorem ipsum, ad eaque ab at ipsam sapiente, fugiat, Lorem ipsum, ad eaque ab at ipsam sapiente,
+                    Lorem ipsum, ad eaque ab at ipsam sapiente, fugiat, labore nulla similique labore nulla similique
+                    maiores in
+                    quam voluptas aperiam fuga neque quasi! Beatae, in. Rem a facere laborum labore, asperiores aliquam
+                    consectetur autem laboriosam? Dignissimos hic dicta illum deleniti tempore eum officiis sequi quas
+                    in!
+                    Pariatur, impedit molestiae alias harum fugiat, aliquam, explicabo hic illum optio incidunt odit
+                    iste repellat
+                    rerum laboriosam in libero totam doloremque soluta eveniet quae.
+                </p>
+                <button class="btn Varela fs-6 fs-lg-5  border-0 book  bg-black text-white mb-3 ">More About<span><i
+                            class="fa-solid fa-angle-right ps-3" style="color: #ffffff;"></i></span></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!---===========services============-->
+    <div class="servicebg   ">
+        <div class="container  text-white ">
+            <div class=" pt-lg-4 pt-5">
+                <p class="text-white text-center display-5 pt-lg-5 pt-5 mt-4 mt-lg-0 ">OUR SERVICES</p>
+                <div class="row m-0  text-white justify-content-center">
+                    <div class="col-lg-3 p-0 m-0 content lh-lg fw-light pt-lg-5 mt-lg-5">
+                        <div class="py-lg-2">
+                            <h5 class="fs-5"><span class="circleclr rounded-circle ps-3 py-2 fs-5">AIR</span> BRUSH</h5>
+                            <P class="smallfont">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. </P>
+                        </div>
+                        <div class="py-lg-2">
+                            <h5 class="fs-5"><span class="circleclr rounded-circle  ps-3 py-2 fs-5">RE</span>TOUCH</h5>
+                            <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+                        </div>
+                        <div class="py-lg-2">
+                            <h5 class="fs-5"><span class="circleclr rounded-circle ps-3 py-2  fs-5">HA</span>IR STYLING
+                            </h5>
+                            <P class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 me-lg-5 mb-5  my-lg-0 py-lg-5 row justify-content-center">
+                        <div class="col-xl-11 col-12">
+                            <div class="shadowimg border">
+                                <div class="">
+                                    <img src="/public/images/Home-page_img/img 2.jpg" alt=""
+                                        class=" img-fluid ms-lg-4  pt-lg-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  content lh-lg fw-light mt-lg-5 pt-lg-5  ps-xl-0">
+                        <div class="py-lg-2">
+                            <h5 class="fs-5"><span class="circleclr rounded-circle ps-3 py-2  fs-5">BO</span>DY GLOWING
+                            </h5>
+                            <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+                        </div>
+                        <div class="py-lg-2">
+                            <h5 class=" fs-5"><span class="circleclr rounded-circle ps-3 py-2  fs-5">CO</span>RNER
+                                LASHES</h5>
+                            <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+                        </div>
+                        <div class="py-lg-2">
+                            <h5 class="fs-5"><span class="circleclr rounded-circle ps-3 py-2 fs-5">EY</span>EBROWS</h5>
+                            <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center py-4 pe-5  ">
+                    <button class="orange f-14 border-0 rounded-1 strectch-link text-white letter-spacing px-3 py-1">
+                        SERVCES IN
+                        BRIEF<i class="fa-solid fa-angle-right fa-2xs ps-3" style="color: #ffffff;"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=================service ends==============-->
+    <!--========pricing starts=================-->
+    <div class="pricingbg varela text-dark position-relative">
+        <div class="container  py-lg-5 py-3">
+            <div class="screensize">
+                <h4 class="text-center display-5 fw-normal ps-lg-5 pt-lg-3">PRICING</h4>
+                <div class="pt-lg-5 ">
+                    <div
+                        class="row-lg d-lg-flex flex-wrap pb-5 justify-content-lg-center bg-white bg-opacity-75 px-lg-5  pricingposition ">
+                        <div class="col-md-6 px-lg-3 mb-lg-3 pricingbor  border-top-0 border-start-0 border-end-0">
+                            <div class="d-flex align-items-center px-lg-3 pt-5">
+                                <img src="/public/images/pricinghome/pricing1.jpg" alt="" class="w-25 rounded-circle">
+                                <p class="fs-4 ms-3">SKIN</p>
+                            </div>
+                            <div class="px-lg-3 clrblack py-lg-3 ">
+                                <div class="row-lg px-lg-0 px-lg-2 ">
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark mb-0">Skin Lightening</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0 "></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5 ">
+                                        <div class="col-md-5 ">
+                                            <p class="text-dark">Brightening</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Anti-Ageing</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Gold Facial</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Acne</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-lg-3 px-2 mb-3 pricingbor  border-top-0 border-start-0 border-end-0">
+                            <div class="d-flex align-items-center px-lg-3 pt-5">
+                                <img src="/public/images/pricinghome/pricing2.jpg" alt="" class="w-25 rounded-circle">
+                                <p class="fs-4 ms-3">HAIR</p>
+                            </div>
+                            <div class="px-lg-3 py-4">
+                                <div class="row-lg">
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Hair Cut</pP>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5 ">
+                                        <div class="col-md-5 ">
+                                            <p class="text-dark">Hair Styling</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Scale Treatment</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Hair Spa</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col d-flex justify-content-lg-around justify-content-between align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Hair Color</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-lg-3 mb-lg-3 ">
+                            <div class="d-flex align-items-center px-lg-3 pt-3">
+                                <img src="/public/images/pricinghome/pricing3.jpg" alt="" class="w-25 rounded-circle">
+                                <p class="fs-4 ms-3">MAKE OVER</p>
+                            </div>
+                            <div class="px-lg-3 py-lg-4">
+                                <div class="row-lg">
+                                    <div class="col d-flex justify-content-around align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Engagement</pP>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-around align-items-center fs-5 ">
+                                        <div class="col-md-5 ">
+                                            <p class="text-dark">Bridal</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-around align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Party</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-around align-items-center fs-5">
+                                        <div class="col-md-5  ">
+                                            <p class="text-dark">Retouch</p>
+                                        </div>
+                                        <div class="col-md-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 px-lg-3 mb-3 ">
+                            <div class="d-flex align-items-center px-3 pt-3">
+                                <img src="/public/images/pricinghome/pricing4.jpg" alt="" class="w-25 rounded-circle">
+                                <p class="fs-4 ms-3">ENHANCEMENTS</p>
+                            </div>
+                            <div class="px-lg-3 py-4">
+                                <div class="row-lg">
+                                    <div class="col d-flex justify-content-around align-items-center fs-5">
+                                        <div class="col-lg-5  ">
+                                            <p class="text-dark">Waxing</pP>
+                                        </div>
+                                        <div class="col-lg-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-around align-items-center fs-5 ">
+                                        <div class="col-lg-5 ">
+                                            <p class="text-dark">Manicure</p>
+                                        </div>
+                                        <div class="col-lg-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-around align-items-center fs-5">
+                                        <div class="col-lg-5  ">
+                                            <p class="text-dark">Pedicure</p>
+                                        </div>
+                                        <div class="col-lg-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                    <div class="col d-flex justify-content-around align-items-center fs-5">
+                                        <div class="col-lg-5  ">
+                                            <p class="text-dark">Eyebrows</p>
+                                        </div>
+                                        <div class="col-lg-5 text-center">
+                                            <p class="pricingbor  border-top-0 border-start-0 border-end-0"></p>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <p>XXX</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center pb-5 ">
+                            <button
+                                class="orange f-12 border-0 strectch-link text-white letter-spacing px-3 py-2 rounded-1">PRICING
+                                IN DETAIL<i class="fa-solid fa-angle-right fa-2xs ps-3"
+                                    style="color: #ffffff;"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pricingbottomposition">
+        </div>
+    </div>
+    <!--=============pricing ends====================-->
+    <!--===========testimonial starts=========-->
+    <div class="testibg text-white varela">
+        <div class="container container-fluid px-lg-4 py-lg-5 py-3 pb-md-5">
+            <p class="text-center display-5 ps-lg-5 py-2 m-0 pt-5 mt-3 pt-md-0">TESTIMONIALS</p>
+            <div class="pt-lg-5 pb-md-5">
+                <div class="row d-lg-flex justify-content-center align-items-center my-lg-5 py-lg-5 pt-md-5">
+                    <div
+                        class="col-lg-5 col-md-5  lh-lg bg-white bg-opacity-25 px-lg-5 px-3 pt-3 pb-5 content me-lg-3 mb-lg-0 mb-4 posrelativetesti">
+                        <div>
+                            <i class="fa-solid fa-quote-left pb-3" style="color: #ffffff;"></i>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis veritatis sit temporibus,
+                                perferendis, provident non minus delectus deleniti beatae cumque accusamus? Lorem ipsum
+                                dolor sit amet consectetur. </p>
+                        </div>
+                        <div class="testimonialposition text-center pe-5">
+                            <img src="/public/images/Home-page_img/testimonial1.jpg" alt="" class="wimg rounded-circle">
+                            <div>
+                                <p class="fs-5">Jonue</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-5 col-md-5 lh-lg bg-white bg-opacity-25  px-lg-5 px-3 pt-3 pb-5 content ms-lg-3 posrelativetesti">
+                        <div>
+                            <i class="fa-solid fa-quote-left pb-3" style="color: #ffffff;"></i>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis veritatis sit temporibus,
+                                perferendis, provident non minus delectus deleniti beatae cumque accusamus? Lorem ipsum
+                                dolor sit amet consectetur.</p>
+                        </div>
+                        <div class="testimonialposition text-center pe-5">
+                            <img src="/public/images/Home-page_img/testimonial2.jpg" alt="" class="wimg rounded-circle">
+                            <div>
+                                <p class="fs-5">Kiran</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============testimonial ends==============-->
+    <!--========form starts============-->
+    <div class="appoint ">
+        <div class="app pb-2 mb-4">
+            <div class="formbg Varela  mb-5  ">
+                <div class="row m-0 p-0  m-0 justify-content-center    ">
+                    <div class="border appoinmentpos col-lg-6 p-0 m-0  col-12 p-0 m-0   p-lg-5 bg-white ">
+                        <div class=" ">
+                            <h3 class="text-center">BOOK APPOINMENT</h3>
+                            <form action="forms/contact.php" method="post" role="form" class="php-email-form p-2  ">
+                                <div class="row m-0 p-0">
+                                    <div class="col-md-6  m-0 p-0 form-group pe-lg-3 pb-lg-3">
+                                        <input type="text" name="name" class="form-control rounded-1" id="name"
+                                            placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-md-6  m-0 p-0  form-group mt-3 mt-md-0 pb-lg-3 ">
+                                        <input type="email" class="form-control rounded-1" name="email" id="email"
+                                            placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="row m-0 p-0 ">
+                                    <div class="form-group mt-3 m-0 p-0  col-md-6 pe-lg-3 ">
+                                        <input type="number" class="form-control rounded-1" name="subject" id="subject"
+                                            placeholder="Phone number" required>
+                                    </div>
+                                    <div class="form-group mt-3 m-0 p-0  col-md-6  m-0 row ">
+                                        <select class="col-md-12 form-group rounded-1">
+                                            <option>Select Services</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3 pt-lg-3">
+                                    <textarea class="form-control rounded-1" name="message" rows="7"
+                                        placeholder="Message" required></textarea>
+                                </div>
+                                <div>
+                            </form>
+                            <button
+                                class="orange mt-5 rounded-2 border-0 strectch-link text-white letter-spacing px-3 py-1">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  m-0 p-0  col-12 ms-md-4 ms-0 mt-5 pt-5">
+                    <div class="footer-links ">
+                        <h6 class=" fs-4"><span class="rounded-circle p-2 m-2 px-3 circleclr fs-5"><i
+                                    class="fa-solid fa-clock" style="color: #ffffff;"></i></span> HOURS</h6>
+                        <ul class="list-unstyled ">
+                            <li class="py-1 ps-3 pb-3"><a href="#"
+                                    class="  text-decoration-none clrblack contbor fs-6 pb-2 ">Monday-Friday:
+                                    9am to 7pm </a>
+                            </li>
+                            <li class="py-1 pb-3 ps-3"><a href="#"
+                                    class=" clrblack contbor fs-6 text-decoration-none pb-2">Saturday:
+                                    9am to 4pm</a>
+                            </li>
+                            <li class="py-1 ps-3"><a href="#" class=" text-decoration-none fs-6 pb-2 clrblack contbor">
+                                    Sunday: Closed</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" mt-5">
+                        <h6 class="   fs-4 pb-2 "><span class="rounded-circle p-2 m-2 px-3 circleclr fs-5"><i
+                                    class="fa-solid fa-location-dot" style="color: #ffffff;"></i></span>LOCATION</h6>
+                        <p class="clrblack  fs-6 pb-2 ps-3  ">
+                            123 Street, XXXXXX, <br> Chennai
+                        </p>
+                    </div>
+                    <div class="mt-5">
+                        <h6 class=" fs-4 pb-2 "><span class="rounded-circle p-2 m-2 px-3 circleclr fs-5 me-2"><i
+                                    class="fa-solid fa-mobile" style="color: #ffffff;"></i></span>CONTACT</h6>
+                        <p class="clrblack  fs-6 pb-2 ps-3 ">
+                            +012 345 67890<br>
+                            mail@domain.com<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--========form ends============-->
+    <!--============footer starts============-->
+    <footer id="footer" class="text-white footerbg ">
+        <div class="container  ">
+            <div class="row m-0 ">
+                <div class="col-lg-5 col-md-12 footer-info">
+                    <div class="container-fluid text-white mt-2">
+                        <a class="navbar-brand  p-0" href="#"><img src="/public/images/Home-page_img/logo.png"
+                                alt="Logo" class="w-25 mt-2 salon  me-5 me-lg-0 "></a>
+                    </div>
+                    <h2 class="mt-4">EVERYTHING HAS <span class="text-white-50">BEAUTY</span> MAKE UP IS <span
+                            class="text-white-50">ART</span> </h2>
+                    <p class="lh-lg mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has
+                        been the industry's standard dummy text ever since book.
+                    </p>
+                    <div class="d-flex mt-4 ">
+                        <a class="nav-link   footicon " href="#">
+                            <i class="fab fa-twitter teami me-lg-3 " style="color: #bbbbbb;"></i>
+                        </a>
+                        <a class="nav-link    footicon " href="#">
+                            <i class="fa-brands fa-facebook teami me-lg-3" style="color: #bbbbbb;"></i>
+                        </a>
+                        <a class="nav-link   footicon " href="#">
+                            <i class="fab fa-instagram teami me-lg-3" style="color: #bbbbbb;"></i>
+                        </a>
+                        <a class="nav-link     footicon " href="#">
+                            <i class="fab fa-linkedin teami me-lg-3" style="color: #bbbbbb;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" row m-0  ">
+            <div class=" col-lg-9   mt-5 pb-4 border-top border-mute opacity-25"></div>
+            <div class="  text-center fs-5  pb-4  col-lg-12 ">
+                &copy; Copyright <span>@Gowebez</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

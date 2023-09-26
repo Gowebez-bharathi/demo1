@@ -1,0 +1,45 @@
+.pricingfullbg{
+    background-image: url(/public/images/pricing/bg.jpg);
+    font-family:$font-family1;
+    background-position:center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.prcbg{
+    background-image: url(/public/images/pricing/Section\ 2.jpg);
+    font-family:$font-family1;
+    background-position:center;
+    background-size:100% 100%;
+    
+}
+.pricingbg1{
+    background-image: url(/public/images/pricing/Section\ 1.jpg);
+    font-family:$font-family1;
+    background-position:center;
+    background-size:100% 100%;
+}
+.txtclr{
+  color: rgba(255, 255, 255, 0.747) ; 
+}
+.fontpric{
+    font-size: 22px;
+}
+.borderpric{
+    border-top: 1px dotted rgba(255, 255, 255, 0.747);
+}
+.pricingpac{
+    background-image: url(/public/images/pricing/Section\ 3.jpg);
+    font-family:$font-family1;
+    background-position:center;
+    background-size:100% 100%;
+    height: 100vh;
+}
+.fsprc{
+    font-size: 12px;
+}
+.borderbottomprc{
+    border-bottom: 2px solid rgba(71, 66, 66, 0.849);
+}
+.txt-pnk{
+    color: rgb(235, 159, 171);
+}
